@@ -1,0 +1,31 @@
+Metodo: pegaValorNumericoTabela (int posIdentificador,int posColunaTabela)
+
+O metodo pegaValorNumericoTabela (int posIdentificador,int posColunaTabela) em seu primeiro paramentro pede
+o parametro posIdentificador o numero da coluna da tabela onde ele pode usar os elementos daquela coluna
+como identificadores, basicamente como se fosse fazer um select procurando pelo ID, como os corredores
+possuem nomes diferentes se colocar o numero da coluna onde contém os nomes para fazer a procura ele retornara
+o nome na coluna 0 da String.
+Neste mesmo metodo pode ser utilizado para procurar as horas, tempos de volta, velocidade media dos corredores.
+
+Colunas da tela:
+
+_________________________________________TELA_______________________________________________________________________________________________________________________________________
+1 lugar      038   	F.MASSA          4    	   finalizou        	23:49:08.277    23:50:11.447    23:51:14.216    23:52:17.003    03:08.726    	44.24575    	23:52:17.003 
+2 lugar      002    	K.RAIKKONEN      4    	   finalizou        	23:49:11.075    23:50:15.057    23:51:19.044    23:52:22.120    03:11.045    	43.62725    	+ 00:05.117 
+3 lugar      033    	R.BARRICHELLO    4    	   finalizou        	23:49:10.858    23:50:14.860    23:51:18.576    23:52:22.586    03:11.728    	43.468      	+ 00:05.583 
+4 lugar      023    	M.WEBBER    	 4    	   finalizou        	23:49:12.667    23:50:17.472    23:51:21.759    23:52:25.975    03:13.308    	43.191254   	+ 00:08.972 
+5 lugar      015    	F.ALONSO         4    	   finalizou        	23:49:30.976    23:50:37.987    23:51:46.691    23:53:06.741    03:35.765    	38.06625    	+ 00:49.738 
+6 lugar      011    	S.VETTEL         3    	   não finalizou    	23:52:01.796    23:53:39.660    23:54:57.757    00:00.000       02:55.961    	25.745667   	+ 07:42.997 
+posição  nº.corredor    corredor        voltas	   corrida finalizada      volta 1	   volta 2	   volta 3        volta 4	tempo total  velocidade media   tempo de chegada
+																			 da corrida      após o primeiro
+
+Melhor volta:
+A melhor volta é 00:01:02.769 volta numero 3 do corredor F.MASSA
+ 
+Menores tempo de cada corredor:  
+ F.MASSA 00:01:02.769 
+ R.BARRICHELLO 00:01:03.716 
+ K.RAIKKONEN 00:01:03.076 
+ M.WEBBER 00:01:04.216 
+ F.ALONSO 00:01:07.011 
+ S.VETTEL 00:01:18.097
